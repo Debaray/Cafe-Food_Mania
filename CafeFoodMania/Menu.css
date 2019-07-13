@@ -1,0 +1,155 @@
+@charset "utf-8";
+.Header{
+	background-image:url(../CafeFoodMania/BlackTex2.jpg);
+	width:100%;
+	height:120px;
+}
+.Header h1{
+	float:left;	
+}
+.Header h1 #First
+{
+	font-family:alex-brush;
+	color:rgba(255,255,255,1.00);
+	font-size:80px;
+	font-style:italic;
+	font-weight:200;
+	padding-left: 10px;
+	padding-bottom: 10px;
+		
+}
+.Header h1 #Last
+{	
+	font-family:aclonica;
+	color:rgba(255,255,255,1.00);
+	font-size:40px;
+	font-style:italic;
+	font-weight:200;
+	padding-left: 10px;
+	padding-bottom: 10px		
+}
+.Header ul {
+	margin:0px;
+	padding:0px;
+}
+.Header ul li a{
+	text-decoration:none;
+	color:rgba(255,255,255,1.00);
+}
+.Header ul li{
+	display:inline-block;
+	margin-left:50px;
+	padding-left:80px;
+	padding-top:40px;
+	float:left;
+	font-size:40px;
+	text-align:center;
+}
+.Header ul li a:hover
+{
+	color:red;
+}
+.cat{
+	margin-left:20px;
+	color:rgba(255,255,255,1.00);
+	font-family:arizonia;
+	font-size:60px;
+	font-style:italic;
+	font-weight:bold;
+}
+.Menu{
+	width:100%;
+	height:100%;
+	background-image:url(../CafeFoodMania/Menu.jpg);
+	background-repeat:repeat-y;
+	background-size:auto;
+	position:relative;
+}
+.Menu .Catagories ul li{
+	background-color:rgba(0,0,0,0.43);
+	text-align:center;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	display:inline-block;
+}
+.Menu .Catagories ul li a{
+	text-decoration:none;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:34px;
+	font-weight:500;
+	color:white;
+	
+}
+.Menu .Catagories ul li a:hover{
+	
+	
+	color:rgba(45,66,229,1.00);
+	
+}
+.abc a{
+	
+	text-decoration:none; 
+	color:rgba(255,255,255,1.00); 
+	font-family:arizonia; 
+	font-style:italic; 
+	font-size:36px; 
+	font-weight:bold;
+}
+.abc a:hover{
+	color:rgba(20,24,225,1.00);
+}
+.Footer
+{
+	margin-top:130px;
+	width:100%;
+	height:100px;
+	background-color:rgba(35,25,25,1.00);
+}
+
+.Footer #Copy ul li{
+	display:inline-block;
+	text-decoration:none;
+	
+}
+.Footer #Copy ul li #e{
+	margin:0px;
+	color:rgba(245,245,245,1.00);
+	font-family:aclonica;
+	font-size:36px;
+	font-style:italic;
+	font-weight:400;	
+}
+.Footer #Copy ul li #c{
+	padding-left:200px;
+	color:rgba(245,245,245,1.00);
+	font-family:aclonica;
+	font-size:36px;
+	font-style:italic;
+	font-weight:400;	
+}
+.Footer #Copy ul li #d{
+	padding-left:170px;
+	color:rgba(245,245,245,1.00);
+	font-family:aclonica;
+	font-size:25px;
+	font-style:normal;
+	font-weight:400;	
+}
+.Footer #Copy ul li #a{
+	margin:0px; 
+	padding-left:270px;
+	color:rgba(245,245,245,1.00);
+	font-family:aclonica;
+	font-size:30px;
+	font-style:italic;
+	font-weight:400;	
+}
+.Footer #Copy ul li #b{
+	padding-left:100px;
+	color:rgba(245,245,245,1.00);
+	font-family:aclonica;
+	font-size:13px;
+	font-style:normal;
+	font-weight:400;	
+}
